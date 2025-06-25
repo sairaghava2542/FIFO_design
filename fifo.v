@@ -1,22 +1,9 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    19:21:41 09/29/2024 
-// Design Name: 
+// Create Date:    19:21:41 06/20/2025
+// Design Name:     Raghava
 // Module Name:    fifo 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
+// Project Name:  RTL2GDSII
 //////////////////////////////////////////////////////////////////////////////////
 module fifo(clk,rstn,we,re,soft_rst,lfd_state,empty,full,din,dout);
 	input clk,rstn,we,re,soft_rst,lfd_state;
